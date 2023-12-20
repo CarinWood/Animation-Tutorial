@@ -12,3 +12,20 @@ body {
 img {
   transform: scale(0.6)
 }
+
+.circle {
+  width: 100px;
+  padding: 50px 0px;
+  line-height: 0px;
+  margin: 60px auto;
+  background: pink;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.circle:hover {
+  background-color: salmon;
+  transform: rotate(360deg)
+}
